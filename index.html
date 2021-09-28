@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac book pro </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <!-- product image  -->
+        <div id="img" class="product">
+            <img id="mac-img" src="images/mac.png" alt="macbook">
+        </div>
+ 
+        <!-- product details  -->
+        <div id="details" class="product">
+            <h1 id="head-product">
+                Customize your Blue 24-inch iMac with apple M1 chip
+            </h1>
+            <p id="description-product">
+                Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores. 7-core GPU and 16-core neural Engine 8GB unified memory 256GB SSD storage two Thunderbolt/USB 4 ports Magic Mouse Magic Keyboard - US English
+            </p>
+
+            <!-- memory  -->
+            <div class="product-cost">
+                <h3 id="memory">
+                    Memory
+                </h3>
+                <button id="8gb">8 GB unified memory</button> 
+                <button id="16gb">16GB unified memory</button>
+            </div>
+
+            <!-- storage  -->
+            <div class="product-cost">
+                <h3 id="storage">
+                    storage
+                </h3>
+                <button id="256gb-ssd">256GB SSD storage</button> 
+                <button id="512gb-ssd">512GB SSD storage</button>
+                <button id="1tb-ssd">1TB SSD storage</button>
+            </div>
+
+            <!-- delivery option  -->
+            <div class="product-cost">
+                <h3 id="delivary">
+                    Choose your delivary option 
+                </h3>
+                <button id="regular">Friday, Aug 25 Free Prime Delivery</button> 
+                <button id="fast">Friday, Aug 21 Delivery charge $20</button> 
+            </div>
+
+            <!-- cost  -->
+            <div class="product-cost" id="cost">
+                
+                <!-- best price -->
+                <div class="price">
+                    <h3>Best Price</h3>
+                    <h3>$ <span id="best-price">1299</span></h3>
+                </div>
+
+                <hr class="line">
+
+                <!-- extra memory cost  -->
+                <div class="price">
+                    <h3>Extra Memory Cost</h3>
+                    <h3>$ <span id="memory-price">0</span></h3>
+                </div>
+
+                <hr class="line">
+
+                <!-- extra storage cost  -->
+                <div class="price">
+                    <h3>Extra Storage Cost</h3>
+                    <h3>$ <span id="storage-price">0</span></h3>
+                </div>
+
+                <hr class="line">
+
+                <!-- delivery charge  -->
+                <div class="price">
+                    <h3>Delivery Charge</h3>
+                    <h3>$ <span id="delivery-charge">0</span></h3>
+                </div>
+
+
+                <div id="final-line"></div>
+
+                <!-- total price  -->
+                <div class="price">
+                    <h3>Total Price</h3>
+                    <h3>$ <span id="total-price">1299</span></h3>
+                </div>
+
+                <hr class="line">
+
+                <div class="promo">
+                    <h3>
+                        Add promo code
+                    </h3>
+                    <input id="promo-input" type="text">
+                    <button type="button" id="promo-code">Apply</button>
+                    <h5 id="promo-warning">
+                        ❌ No promocode found named "<span id="wrong-promo"></span>"
+                    </h5>
+                </div>
+                
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="bottom-total">
+        <hr>
+        <div>
+            <h3 id="discount-details">
+                Discount Amount: $ <span id="discount"></span>
+            </h3>
+            <h2>
+                Total: $<span id="final-total">1299</span>
+            </h2>
+        </div>
+    </div>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
